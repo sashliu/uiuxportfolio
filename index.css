@@ -34,6 +34,7 @@ body {
       float: left;
       padding-top: 0;
       margin-top: 0;
+      margin-left:15px;
   }
   
   .navbar .icon:hover{
@@ -212,8 +213,8 @@ div.gallery {
 
 }
 .p{
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size:18px;
 }
 h2{
@@ -226,5 +227,30 @@ h2{
 .top{
   display: flex;
   justify-content: flex-start;
-  margin-left: 160px;
+  margin-left: 10%;
+}
+
+.skills{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 60px;
+}
+.list{
+  border-style: solid;
+  margin-left:80px;
+  margin-right:80px;
+  padding-right:60px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:50%;
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to right, #cc7675, #e294ae, #af96da, #93bde0, #8ed4dd, #a2dfa5, #dfc6a0, #e6a490);
+  border: 4px solid transparent;
+}
+
+li{
+  padding:10px;
 }
