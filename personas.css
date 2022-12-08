@@ -116,15 +116,20 @@ body {
   }
 
 p{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size:18px;
 }
 h2{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top:60px;
+    margin-left: 10%;
     color:#652c94;
     font-size:30px;
+}
+.conclusion h2{
+  margin-top:30px;
+  color:#652c94;
+  font-size:30px;
 }
 .small{
     max-width: 40%;
@@ -148,10 +153,20 @@ img{
 .personas{
     display: flex;
     justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .interview{
     display:flex;
     justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+@media screen and (max-width:1300px){
+  .interview{
+      flex-direction: column;
+  }
 
 }
 @media screen and (max-width:1000px){
@@ -185,6 +200,7 @@ img{
     border-color:#652c94;
 }
 .p-he{
+    margin-left: 20px;
     padding-left:32px;
 }
 .multicolortext{
@@ -198,8 +214,8 @@ img{
     border-style: solid;
     border-color: #652c94;
     background-color: #f4e8ff;
-    margin-left:30px;
-    margin-right:30px;
+    margin-left:10%;
+    margin-right:10%;
     padding:10px;
 }
 .footer{
