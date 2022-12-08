@@ -187,6 +187,13 @@ img{
 .p-he{
     padding-left:32px;
 }
+.multicolortext{
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 .conclusion{
     border-style: solid;
     border-color: #652c94;
