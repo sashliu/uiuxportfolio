@@ -222,7 +222,7 @@ img{
   margin-right:0;
   margin-top:100px;
   width:100%;
-  height:150px;
+  height:200px;
   background-color: #0e3887;
 
 }
@@ -241,4 +241,47 @@ img{
       flex-direction: column;
 
   }
+}
+.footer p {
+  color:white;
+  font-size: 30px;
+  margin-left: 100px;
+  padding-top: 50px;
+}
+.butt{
+  background-color:#0e3887;
+  margin-left: 100px;
+  text-decoration: none;
+  padding:5 10px;
+  border-color: white;
+  border-style: solid;
+
+}
+.butt:hover, .butt2:hover{
+  background: linear-gradient(#0e3887, #0e3887) padding-box,
+  linear-gradient(to right, #cc7675, #e294ae, #af96da, #93bde0, #8ed4dd, #a2dfa5, #dfc6a0, #e6a490);
+  border: 1px solid transparent;
+
+}
+.footer a{
+  color:white;
+  text-decoration: none;
+}
+.footer a:hover{
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+
+}
+.butt2{
+  background-color:#0e3887;
+  margin-left: 10px;
+  text-decoration: none;
+  padding:5 10px;
+  border-color: white;
+  border-style: solid;
+
 }
