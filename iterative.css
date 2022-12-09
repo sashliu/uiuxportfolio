@@ -179,9 +179,10 @@ a:hover{
     justify-content: center;
     padding:5%;
 }
-@media screen and (max-width:1000px){
-    .problems{
+@media screen and (max-width:900px){
+    .sketches, .wireframe{
         flex-direction: column;
+
     }
 }
 .figma{
@@ -288,7 +289,7 @@ h4{
     margin-left: 10%;
 }
 .sketches img, .wireframe img{
-    width:25%;
+    width:100%;
 }
 .wireframe{
     display: flex;
