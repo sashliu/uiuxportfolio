@@ -3,7 +3,10 @@ body {
     margin:0;
   }
 .header{
-    padding:20px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left:3%;
+    margin-right:3%;
     padding-top: 100px;
 }
 .icon{
@@ -137,6 +140,9 @@ div.gallery {
     height: auto;
   }
   
+  h4{
+    font-size: 1.5vw;
+  }
   div.desc {
     padding: 15px;
     text-align: left;
@@ -162,10 +168,19 @@ div.gallery {
       margin: 6px 0;
     }
   }
+  @media only screen and (max-width: 1200px) {
+
+    h4{
+      font-size: 20px;
+    }
+  }
   
   @media only screen and (max-width: 800px) {
     .responsive {
       width: 100%;
+    }
+    h4{
+      font-size: 20px;
     }
   }
   
@@ -187,12 +202,9 @@ div.gallery {
         margin-left:200px;
         margin-right:200px;
     }
-    .h1{
+    .h1, .intro{
         margin-left:150px;
-    }
-    .header p{
-        padding-left:200px;
-        padding-right:200px;
+        margin-right: 150px;
     }
   }
   .gal1{
